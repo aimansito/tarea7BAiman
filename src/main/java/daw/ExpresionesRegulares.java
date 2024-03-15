@@ -29,4 +29,9 @@ public class ExpresionesRegulares {
     public static boolean comprobarMatricula(String matricula){
         return matricula.matches("\\b[0-9]{4}[A-Z]{3}");
     }
+    //Saber si una cadena contiene el patrón letraNumero, tantas veces como se repita. 
+    //Ejemplos que cumplen el patrón: e3, e3r4, q1w2d4, ...
+    public static boolean contienePatronLetraNumero(String cadena){
+        return cadena.matches("");
+    }
 }
